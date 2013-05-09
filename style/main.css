@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+#world {
+    background-color: white;
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#commands {
+    display: block;
+    position: absolute;
+    left: 670px;
+    height: 48px;
+    width: 340px;
+    border: 1px solid red;
+    font-family: helvetica;
+    font-size: 18pt;
+}
+
+#messages {
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    border: 1px solid red;
+    top: 65px;
+    left: 670px;
+    width: 338px;
+    height: 422px;
+    font-size: 14pt;
+}
+
+.npc {
+    border: solid 1px black;
+    width: 32px;
+    height: 48px;
+    position: absolute;
+    background-color: rgba(224, 208, 101, 0.8);
+    z-index: 9999;
+}
+
+.tile {
+    width: 32px;
+    height: 48px;
+    position: absolute;
+}

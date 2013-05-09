@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Foundima -- A Plane RPG</title>
+    <script type="text/javascript" src="./lib/jquery.js"></script>
+    <script type="text/javascript" src="./lib/underscore.js"></script>
+    <script type="text/javascript" src="./lib/console.js"></script>
+    <script type="text/javascript" src="./lib/npc.js"></script>
+    <script type="text/javascript" src="./lib/player.js"></script>
+    <script type="text/javascript" src="./lib/tile.js"></script>
+    <script type="text/javascript" src="./lib/map.js"></script>
+    <script type="text/javascript" src="./lib/main.js"></script>
+    <link rel="stylesheet" href="./style/main.css" type="text/css"></link>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var main = new foundima.Main();
+        });
+    </script>
+  </head>
+  <body>
+    <div id="world">
+      <div id="player" class="npc"></div>
+    </div>
+
+    <input type="text" id="commands" />
+    <div id="messages">
+    </div>
+  </body>
+</html>
